@@ -1,0 +1,46 @@
+{
+  "name": "@stdlib/math-base-assert-is-positive-integer",
+  "version": "0.0.0",
+  "description": "Test if a finite double-precision floating-point number is a positive integer.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-assert-is-positive-integer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "math",
+    "mathematics",
+    "positive",
+    "integer",
+    "natural",
+    "counting",
+    "number",
+    "int",
+    "is",
+    "isinteger",
+    "isint",
+    "ispositive",
+    "type",
+    "check",
+    "double",
+    "dbl"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
