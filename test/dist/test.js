@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,60 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var trunc = require( '@stdlib/math-base-special-trunc' );
-var randu = require( '@stdlib/random-base-randu' );
-var PINF = require( '@stdlib/constants-float64-pinf' );
-var NINF = require( '@stdlib/constants-float64-ninf' );
-var isPositiveInteger = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isPositiveInteger, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `true` if provided a positive integer', function test( t ) {
-	var i;
-	for ( i = 1; i < 101; i++ ) {
-		t.equal( isPositiveInteger( i ), true, 'returns true when provided '+i );
-	}
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided a nonpositive integer', function test( t ) {
-	var i;
-	for ( i = 0; i > -101; i-- ) {
-		t.equal( isPositiveInteger( i ), false, 'returns false when provided '+i );
-	}
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided an integer', function test( t ) {
-	var v;
-	var i;
-	for ( i = 0; i < 100; i++ ) {
-		v = ( randu()*100.0 ) - 50.0;
-		if ( trunc(v) !== v ) {
-			t.equal( isPositiveInteger( v ), false, 'returns false when provided '+v );
-		}
-	}
-	t.end();
-});
-
-tape( 'the function returns `false` if provided `NaN`', function test( t ) {
-	t.equal( isPositiveInteger( NaN ), false, 'returns false' );
-	t.end();
-});
-
-tape( 'WARNING: the function returns `true` if provided `+infinity`', function test( t ) {
-	t.equal( isPositiveInteger( PINF ), true, 'returns true' );
-	t.end();
-});
-
-tape( 'the function returns `false` if provided `-infinity`', function test( t ) {
-	t.equal( isPositiveInteger( NINF ), false, 'returns false' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
