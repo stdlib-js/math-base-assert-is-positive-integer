@@ -35,38 +35,32 @@ limitations under the License.
 
 > Test if a finite [double-precision floating-point number][ieee754] is a positive integer.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-assert-is-positive-integer
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isPositiveInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isPositiveInteger = require( 'path/to/vendor/umd/math-base-assert-is-positive-integer/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isPositiveInteger;
-})();
-</script>
+var isPositiveInteger = require( '@stdlib/math-base-assert-is-positive-integer' );
 ```
 
 #### isPositiveInteger( x )
@@ -116,13 +110,8 @@ bool = isPositiveInteger( -10.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isPositiveInteger = require( '@stdlib/math-base-assert-is-positive-integer' );
 
 var bool = isPositiveInteger( 5.0 );
 // returns true
@@ -138,11 +127,6 @@ bool = isPositiveInteger( 3.14 );
 
 bool = isPositiveInteger( NaN );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -229,8 +213,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/tree/deno
+[deno-readme]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/tree/umd
+[umd-readme]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/tree/esm
+[esm-readme]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-assert-is-positive-integer/main/LICENSE
@@ -239,13 +226,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math-base-assert-is-integer/tree/umd
+[@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math-base-assert-is-integer
 
-[@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math-base-assert-is-negative-integer/tree/umd
+[@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math-base-assert-is-negative-integer
 
-[@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer/tree/umd
+[@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer
 
-[@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-integer/tree/umd
+[@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-integer
 
 <!-- </related-links> -->
 
