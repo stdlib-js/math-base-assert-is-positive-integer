@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@esm/index.mjs';
+import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@v0.2.0-esm/index.mjs';
 ```
 
 #### isPositiveInteger( x )
@@ -98,7 +98,7 @@ bool = isPositiveInteger( -10.0 );
 <body>
 <script type="module">
 
-import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@esm/index.mjs';
+import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@v0.2.0-esm/index.mjs';
 
 var bool = isPositiveInteger( 5.0 );
 // returns true
