@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-assert-is-positive-integer/tags). For example,
+
+```javascript
 import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@v0.2.1-esm/index.mjs';
 ```
 
@@ -98,7 +103,7 @@ bool = isPositiveInteger( -10.0 );
 <body>
 <script type="module">
 
-import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@v0.2.1-esm/index.mjs';
+import isPositiveInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-integer@esm/index.mjs';
 
 var bool = isPositiveInteger( 5.0 );
 // returns true
