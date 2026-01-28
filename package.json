@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-assert-is-positive-integer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Test if a finite double-precision floating-point number is a positive integer.",
   "license": "Apache-2.0",
   "author": {
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@stdlib/math-base-special-floor": "^0.2.3",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",

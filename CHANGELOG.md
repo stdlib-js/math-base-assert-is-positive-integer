@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.1">
 
-## Unreleased (2025-08-08)
+## 0.3.1 (2026-01-28)
 
 <section class="bug-fixes">
 
@@ -22,9 +22,10 @@
 
 <details>
 
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
 -   [`0240ed9`](https://github.com/stdlib-js/stdlib/commit/0240ed95c31c83898c7605781a2b73e508b8ef71) - **chore:** minor clean-up _(by Philipp Burckhardt)_
--   [`da87aba`](https://github.com/stdlib-js/stdlib/commit/da87aba5a4cbb2ff6553a2d9d0ee6eb83bcdc8da) - **bench:** update random value generation [(#6690)](https://github.com/stdlib-js/stdlib/pull/6690) _(by Harsh)_
+-   [`da87aba`](https://github.com/stdlib-js/stdlib/commit/da87aba5a4cbb2ff6553a2d9d0ee6eb83bcdc8da) - **bench:** update random value generation [(#6690)](https://github.com/stdlib-js/stdlib/pull/6690) _(by Harsh Yadav)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
 </details>
@@ -40,7 +41,7 @@
 A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Harsh
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
